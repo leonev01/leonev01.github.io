@@ -1,13 +1,13 @@
 
 li.urgent {background-color:red;
-          text-color:white;
+          color:white;
   }
 li.moderate {background-color:orange;
-            text-color:white;
+            color:white;
   }
 li.okay {background-color:gray;
   }
-li.done {bakground-color:black;
-        text-color:#00FFFF;
+li.done {background-color:black;
+        color:#00FFFF;
   }
 
