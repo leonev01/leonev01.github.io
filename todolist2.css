@@ -2,19 +2,19 @@
 li.urgent {
           color:white;
   }
-h2.urgent<{background-color:red;
+ul<h2.urgent{background-color:red;
   }
 li.moderate {
             color:white;
   }
-h2.moderate<{background-color:orange;
+ul<h2.moderate<{background-color:orange;
   }
-h2.okay<{backgroundcolor:gray;
+ul,<h2.okay<{backgroundcolor:gray;
   }
 li.done {
         color:#00FFFF;
   }
-h2.done<{background-color:black;
+ul<h2.done<{background-color:black;
   }
 h2 {tex-align: center;
      color: white;
