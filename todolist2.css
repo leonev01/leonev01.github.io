@@ -2,22 +2,22 @@
 li.urgent {
           color:white;
   }
-ul<h2.urgent{
+ul.urgent{
           background-color:red;
   }
 li.moderate {
             color:white;
   }
-ul<h2.moderate{
+ul.moderate{
           background-color:orange;
   }
-ul<h2.okay{
+ul.okay{
           backgroundcolor:gray;
   }
 li.done {
         color:#00FFFF;
   }
-ul<h2.done{
+ul.done{
           background-color:black;
   }
 h2 {
