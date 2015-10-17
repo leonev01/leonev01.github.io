@@ -13,6 +13,8 @@ section.A {
 section.B {
   background-color:plum;
   width:100%;
+  position:center;
+  margin-top:500px;
 }
 #high {
     color: purple;
