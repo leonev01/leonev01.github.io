@@ -15,6 +15,7 @@ section.B {
   width:100%;
   position:center;
   margin-top:500px;
+  margin-left:500px;
 }
 #high {
     color: purple;
