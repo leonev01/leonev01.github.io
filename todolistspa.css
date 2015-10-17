@@ -1,5 +1,5 @@
 h1 {
-  position: center;
+  text-align: center;
 }
 section.A {
   background-color: plum;
@@ -13,7 +13,6 @@ section.A {
 section.B {
   background-color:plum;
   width:100%;
-  position:center;
   margin-top:100px;
   margin-left:100px;
 }
