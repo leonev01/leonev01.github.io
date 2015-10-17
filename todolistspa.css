@@ -3,7 +3,7 @@ h1 {
 }
 section.A {
   background-color: plum;
-  width: 75%;
+  width: 85%;
   height:300px;
   margin-top: 50px;
   margin-left:100px;
@@ -12,7 +12,7 @@ section.A {
 }
 section.B {
   background-color:plum;
-  width:75%;
+  width:85%;
   margin-top:100px;
   margin-left:100px;
   margin-right:100px;
