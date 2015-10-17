@@ -1,3 +1,6 @@
+h1 {
+  position: center;
+}
 section.A {
   background-color: plum;
   width: 95%;
@@ -5,4 +8,18 @@ section.A {
   margin-top: 50px;
   margin-left:100px;
   margin-right:100px;
+  position: center;
+}
+section.B {
+  background-color:plum;
+  width:100%;
+}
+#high {
+    color: purple;
+}
+#med {
+    color: blue;
+}
+#low {
+    color:white;
 }
