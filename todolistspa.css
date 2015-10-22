@@ -20,12 +20,15 @@ section.B {
   margin-left:100px;
   margin-right:100px;
 }
-#high {
+.high {
     color: purple;
 }
-#med {
+.med {
     color: blue;
 }
-#low {
+.low {
     color:white;
+}
+.done{
+   
 }
