@@ -62,8 +62,8 @@ add= function() {
 		var text;
 		entries = document.querySelectorAll('li')
 		for(text=0; text < entries.length; text++) {
-			if (! entries[i].classList.contains("done")) {
-			res.push(entries[i].innerText);
+			if (! entries[text].classList.contains("done")) {
+			res.push(entries[text].innerText);
 			}
 		}
 	
