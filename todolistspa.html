@@ -69,7 +69,7 @@ add= function() {
 	
 		localStorage.setItem("todoDatabase",JSON.stringify(res))
 	}
-	restore @ todolistspa.html = function () {
+	restore = function () {
 		entries = JSON.parse(localStorage.getItem('todoDatabase'))
 		for (text=0; text < entries.length; text++){
 		
