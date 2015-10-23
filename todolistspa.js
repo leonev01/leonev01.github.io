@@ -4,34 +4,7 @@ done = function() {
 	}else {
 		this.parentNode.classList.remove("done");
 		}
-	localSave()
-}
-localSave = function() {
-	var res = []
-	var text;
-	entries = document.querySelectorAll('li')
-	for(text=0; text < entries.length; text++) {
-		if (! entries[text].classList.contains("done")) {
-		res.push(entries[text].innerText);
-		}
-	}
-	localStorage.setItem("todoDatabase",JSON.stringify(res))
-}
-restore = function () {
-	entries = JSON.parse(localStorage.getItem('todoDatabase'))
-	for (text=0; text < entries.length; text++){
-	
-	ul = document.querySelector("#box");
-	li = document.createElement('li');
-	input= document.createElement("input");
-	input.type = 'checkbox';
-	input.onclick = done;	
-	li.appendChild(input);
-	task= document.createTextNode(entries[text]);
-	li.appendChild(task);
-	ul.appendChild(li);
-	}
-	
+	localSave('box')
 }
 add= function() {
 	var newli;
@@ -49,11 +22,11 @@ add= function() {
 	li.appendChild(task);
 	ul.appendChild(li);
 	
-	
-localSave ()
+localSave ('box')
+restoreList("box",done)
 	
 }
-window.onload = restore;
+
 
 
 
