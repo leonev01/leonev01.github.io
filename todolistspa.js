@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 done = function() {
 	if (this.checked){
 	this.parentNode.classList.add("done");
@@ -55,7 +55,7 @@ localSave ()
 	
 }
 window.onload = restore;
-</script>
+
 
 
 
