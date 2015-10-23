@@ -23,13 +23,13 @@ section.B {
   margin-left:100px;
   margin-right:100px;
 }
-.high {
+.High {
     color: purple;
 }
-.med {
+.Medium {
     color: blue;
 }
-.low {
+.Low {
     color:white;
 }
 li.done {
