@@ -1,4 +1,5 @@
-
+<html>
+<body>
 <script type="text/javascript">
 done = function() {
 	if (this.checked){
@@ -57,5 +58,6 @@ localSave ()
 }
 window.onload = restore;
 </script>
-</script>
+</body>
+</html>
 
