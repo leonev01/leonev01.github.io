@@ -35,6 +35,7 @@
 	}else {
 		this.parentNode.classList.remove("done");
 		}
+	localSave()
 }
 add= function() {
 	var newli;
@@ -51,10 +52,40 @@ add= function() {
 	task= document.createTextNode(word);
 	li.appendChild(task);
 	ul.appendChild(li);
+	localSave ()
 	
 	
 	
 }
+	localSave = function() {
+		var res = []
+		var text;
+		entries = document.querySelectorAll('li')
+		for(text=0; text < entries.length; text++) {
+			if (! entries[i].classList.contains("done")) {
+			res.push(entries[i].innerText);
+			}
+		}
+	
+		localStorage.setItem("todoDatabase",JSON.stringify(res))
+	}
+	restore = function () {
+		entries = JSON.parse(localStorage.getItem('todoDatabase'))
+		for (text=0; text < entries.length; text++){
+		
+		ul = document.querySelector("#box");
+		li = document.createElement('li');
+		input= document.createElement("input");
+		input.type = 'checkbox';
+		input.onclick = done;	
+		li.appendChild(input);
+		task= document.createTextNode(entries[text]);
+		li.appendChild(word);
+		ul.appendChild(li);
+		}
+		
+	}
+
 window.onload= restore;
 </script>
 
