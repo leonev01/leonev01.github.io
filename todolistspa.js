@@ -1,4 +1,3 @@
-<html>
 <body>
 <script type="text/javascript">
 done = function() {
@@ -59,5 +58,5 @@ localSave ()
 window.onload = restore;
 </script>
 </body>
-</html>
+
 
